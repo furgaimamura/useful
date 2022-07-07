@@ -1,0 +1,55 @@
+/* common */
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  line-height: 24px;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  padding-left: 16px;
+  border-left: 8px solid chocolate;
+  border-bottom: 2px solid #bbb;
+}
+
+h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.container {
+  margin: 0 8px;
+}
+
+/* main */
+
+main .container {
+  margin-top: 12px;
+}
+
+main a::before {
+  content: "・";
+}
+
+main h2::before {
+  content: "▲";
+}
+
+main section + section {
+  margin-top: 16px;
+}
+
+main h1 {
+  font-size: 28px;
+  line-height: 40px;
+  /* margin-top: 48px; */
+  background: rgb(240, 240, 240);
+}
